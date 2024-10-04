@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(images/slider-img.jpg);
+  height: 90vh;
+  font-family: "Poppins", sans-serif;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+header .naslov a {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+}
+header .strelice {
+  display: flex;
+}
+header .strelice img {
+  width: 40px;
+  background-color: #040000;
+  border-radius: 15px;
+}
+header nav {
+  position: absolute;
+  bottom: -50px;
+}
+header nav ul {
+  display: flex;
+  background-color: #3d3c3c;
+  list-style: none;
+  padding: 2rem 12rem;
+  border-radius: 1rem;
+}
+header nav ul li {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+header nav ul li a {
+  color: #fff;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+}
+header nav ul li .pretraga img {
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+  font-family: "Poppins", sans-serif;
+}
+.hero h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.hero button {
+  background-color: #3d3c3c;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.hero button:hover {
+  background-color: #fff;
+  color: #3d3c3c;
+  border-color: #3d3c3c;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about .slika img {
+  padding-left: 50px;
+}
+.about .tekst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 100px 100px 20px;
+  font-family: "Poppins", sans-serif;
+}
+.about .tekst h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+.about .tekst p {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.about .tekst button {
+  background-color: #3d3c3c;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.about .tekst button:hover {
+  background-color: #fff;
+  color: #3d3c3c;
+  border-color: #3d3c3c;
+}
+
+.fruit h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 450px;
+}
+.fruit .slike {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+}
+.fruit .slike img {
+  padding-bottom: 32px;
+}
+
+.customer h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 500px;
+}
+.customer .sss {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.customer .ttt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 150px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+.customer .ttt h3 {
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.customer .ttt p {
+  padding-bottom: 40px;
+}
+
+.forma h2 {
+  font-weight: 500;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 50px 550px;
+}
+.forma form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding: 30px 800px 30px 300px;
+}
+.forma form input {
+  padding: 1rem;
+  margin: 1rem;
+  border-color: #6c757d;
+}
+.forma form input.poruka {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.forma form input::-moz-placeholder {
+  text-transform: uppercase;
+  color: #6c757d;
+}
+.forma form input:-ms-input-placeholder {
+  text-transform: uppercase;
+  color: #6c757d;
+}
+.forma form input::placeholder {
+  text-transform: uppercase;
+  color: #6c757d;
+}
+.forma form input.podnesi {
+  background-color: #fbb534;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-transform: capitalize;
+  border-color: #fbb534;
+  width: 120px;
+}
+
+footer {
+  height: 50vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #3d3c3c;
+}
+footer .naslov {
+  text-align: center;
+}
+footer .naslov a {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+}
+footer .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 0 50px 50px 50px;
+}
+footer .info .location {
+  display: flex;
+}
+footer .info .location p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+footer .info .location img {
+  width: 1rem;
+  margin-right: 1rem;
+}
+footer .info .call {
+  display: flex;
+}
+footer .info .call p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+footer .info .call img {
+  width: 1rem;
+  margin-right: 1rem;
+}
+footer .info .mail {
+  display: flex;
+}
+footer .info .mail p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+footer .info .mail img {
+  width: 1rem;
+  margin-right: 1rem;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social i {
+  font-size: xx-large;
+}/*# sourceMappingURL=style.css.map */
